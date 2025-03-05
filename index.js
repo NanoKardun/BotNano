@@ -142,7 +142,7 @@ if (message.content.startsWith('!play ')) {
         message.reply('lagi muter jinkk! ');
     } catch (error) {
         console.error(error);
-        message.reply('Gagal muter lagu, cek lagi linknya jink, ato coba lagi ntar yang punya bego.');
+        message.reply('Gagal muter lagu, cek lagi linknya.');
     }
 }
 });
